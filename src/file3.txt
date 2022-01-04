@@ -1,3 +1,4 @@
-Hello!is data is appended with fs.appendFile()
+Hello!
+***This data is appended with fs.appendFile()
 ***Append some more
 Hello World!
