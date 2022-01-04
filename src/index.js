@@ -1,2 +1,3 @@
-require('./sync-async/');
-require('./fs-promises');
+require('./crud');
+// require('./sync-async/');
+// require('./fs-promises');
