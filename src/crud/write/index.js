@@ -17,6 +17,7 @@ const fsp = require('fs/promises');
       console.log('\n\nfs.write() using buffer');
       console.log('Content added successfully');
     }
+    fs.close(handle.fd);
   });
 })();
 
@@ -32,5 +33,6 @@ const fsp = require('fs/promises');
       console.log('\n\nfs.write() using buffer');
       console.log('Content added successfully');
     }
+    fs.close(handle.fd);
   });
 })();
