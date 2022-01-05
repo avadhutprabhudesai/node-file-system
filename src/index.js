@@ -1,3 +1,4 @@
+require('./use-cases');
 // require('./error-handling');
 // require('./meta-data');
 // require('./error-handling');
